@@ -1,0 +1,12 @@
+#This is variable section for the ansible user role, below are listed 5 users that will be deployed, they are mapped to variables {user1..user5}
+
+user1: ansible
+user2: docker
+user3: kubernetes
+user4: git
+user5: aws
+
+shell: /bin/bash
+comment: I'm DevOps Engineer
+group: wheel
+state: present

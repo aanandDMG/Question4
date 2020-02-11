@@ -1,0 +1,11 @@
+#This is tasks section of the user role, module user has been used and varibales are refernced from vars directory
+
+- name: Deploying 5 Users
+  user: name={{item}} state={{state}} group={{group}} shell={{shell}} comment={{comment}}
+  with_items:
+    - "{{user1}}"
+    - "{{user2}}"
+    - "{{user3}}"
+    - "{{user4}}"
+    - "{{user5}}"
+  

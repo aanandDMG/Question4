@@ -1,0 +1,6 @@
+#This is Role Yaml file for the Goals101 User Change Your Host To Run
+
+- hosts: slave1
+  connection: ssh
+  roles:
+    - goals101

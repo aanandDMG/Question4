@@ -17,4 +17,8 @@ Please Run:
 
 ansible-playbook goals101.yaml
 
+If this asks only to run on Debain then this can be done be when module by modfiying /tasks/main.yaml
+
+when: ansible_os_family == "Debian"
+
 Once the --hosts has been changed :)

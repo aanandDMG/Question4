@@ -17,7 +17,7 @@ Please Run:
 
 ansible-playbook goals101.yaml
 
-If this asks only to run on Debain then this can be done be when module by modfiying /tasks/main.yaml, as question was not clearly mentioning to that i haven't me
+If this asks only to run on Debain then this can be done be when module by modfiying /tasks/main.yaml, as question was not clearly mentioning to that i haven't added when module just like below in main.yaml file.
 
 when: ansible_os_family == "Debian"
 
